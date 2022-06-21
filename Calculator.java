@@ -36,6 +36,11 @@ public class Mathoperation {
 			--Y;
 		}
 	}
+	public void mod()
+	{
+		R = X % Y;
+	}
+	
 	public void display()
 	{
 		System.out.println("Result "+R);
