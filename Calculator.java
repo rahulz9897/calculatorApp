@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 
 public class AdvanceCalculator {
@@ -40,7 +39,7 @@ public class AdvanceCalculator {
 
 	public static void main(String[] args) {
 		int n=0;
-		Mathoperation m1 = new Mathoperation();
+		AdvanceCalculator m1 = new AdvanceCalculator();
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter X and Y");
 		int x = s.nextInt();
@@ -75,22 +74,3 @@ public class AdvanceCalculator {
 	}
 }
 
-//Output:-
-//Enter X and Y
-//5
-//4
-//Enter Your Choice
-//1.Addition 2.Multiplication 3.Power 0.Exit
-//1
-//Result 9
-//Enter Your Choice
-//1.Addition 2.Multiplication 3.Power 0.Exit
-//2
-//Result 20
-//Enter Your Choice
-//1.Addition 2.Multiplication 3.Power 0.Exit
-//3
-//Result 625
-//Enter Your Choice
-//1.Addition 2.Multiplication 3.Power 0.Exit
-//0
