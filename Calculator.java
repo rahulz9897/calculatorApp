@@ -42,8 +42,10 @@ public class Calculator {
 		Calculator m1 = new Calculator();
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter X and Y");
-		int x = s.nextInt();
-		int y = s.nextInt();
+		//int x = s.nextInt();
+		//int y = s.nextInt();
+		int x = 5;
+		int y = 4;
 		m1.init(x, y);
 		do{
 			System.out.println("Enter Your Choice\n1.Addition 2.Multiplication 3.Power 0.Exit");
