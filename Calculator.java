@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class AdvanceCalculator {
+public class Calculator {
 	
 	private int X,Y,R;
 	
