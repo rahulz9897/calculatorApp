@@ -39,7 +39,7 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		int n=0;
-		AdvanceCalculator m1 = new AdvanceCalculator();
+		Calculator m1 = new Calculator();
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter X and Y");
 		int x = s.nextInt();
