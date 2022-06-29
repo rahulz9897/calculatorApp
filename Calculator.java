@@ -41,7 +41,7 @@ public class Calculator {
 		int n=0;
 		Calculator m1 = new Calculator();
 		Scanner s = new Scanner(System.in);
-		System.out.println("Enter X and Y");
+		//System.out.println("Enter X and Y");
 		//int x = s.nextInt();
 		//int y = s.nextInt();
 		int x = 5;
