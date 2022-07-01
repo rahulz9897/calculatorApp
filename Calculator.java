@@ -57,12 +57,12 @@ public class Calculator {
 			//	break;
 			//case 1:
 				m1.add();
-				System.out.println("Addition of 5 & 4 = ");
+				System.out.println("Addition of 5 + 4 = ");
 				m1.display();
 			//	break;
 			//case 2:
 				m1.multiply();
-				System.out.println("Multiply of 5 & 4= ");
+				System.out.println("Multiply of 5 - 4= ");
 				m1.display();
 			//	break;
 			//case 3:
