@@ -57,14 +57,17 @@ public class Calculator {
 			//	break;
 			//case 1:
 				m1.add();
+				System.out.println("Addition of "x" & "y" = " );
 				m1.display();
 			//	break;
 			//case 2:
 				m1.multiply();
+				System.out.println("Multiply of "x" & "y" = " );
 				m1.display();
 			//	break;
 			//case 3:
 				m1.power();
+				System.out.println("Power of "x" & "y" = " );
 				m1.display();
 			//	break;
 				
