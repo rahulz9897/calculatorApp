@@ -36,6 +36,10 @@ public class Mathoperation {
 			--Y;
 		}
 	}
+	public void sub()
+	{
+		R = X - Y;
+	}
 	public void display()
 	{
 		System.out.println("Result "+R);
@@ -50,7 +54,7 @@ public class Mathoperation {
 		int y = s.nextInt();
 		m1.init(x, y);
 		do{
-			System.out.println("Enter Your Choice\n1.Addition 2.Multiplication 3.Power 0.Exit");
+			System.out.println("Enter Your Choice\n1.Addition 2.Multiplication 3.Power 4.Subtraction 0.Exit");
 			n = s.nextInt();
 			switch(n)
 			{
@@ -69,6 +73,9 @@ public class Mathoperation {
 				m1.power();
 				m1.display();
 				break;
+			case 4:
+				m1.sub();
+				m1.display();
 				
 			default:
 				System.out.println("Invalid Input");
